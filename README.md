@@ -1,7 +1,5 @@
 # Welcome to "The American Dream" Website
 
-![State of Liberty](../america/src/assets/img/state-of-liberty1.png.png)
-
 "The American Dream" is a website dedicated to exploring the diverse landscapes, cities, culture, and history of the United States of America. Whether you're a traveler, history enthusiast, or someone interested in discovering the beauty of America, you've come to the right place.
 
 ## Features
