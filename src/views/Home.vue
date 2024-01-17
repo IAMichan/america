@@ -271,39 +271,39 @@
         `<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center px-12">
             <div>
                 <img class="max-w-full rounded-t-lg" src="../assets/img/history-1.jpg" alt="">
-                <h5 class="bg-black text-white p-2 rounded-b-lg text-lg mb-4">1. Colonial Settlement, 1600s - 1763</h5>
+                <h5 class="bg-amber-900 text-white p-2 rounded-b-lg text-lg mb-4">1. Colonial Settlement, 1600s - 1763</h5>
             </div>
             <div>
                 <img class="max-w-full rounded-t-lg" src="../assets/img/history-2.jpg" alt="">
-                <h5 class="bg-black text-white p-2 rounded-b-lg text-lg lg:mb-10">2. The American Revolution, 1763 - 1783</h5>
+                <h5 class="bg-amber-900 text-white p-2 rounded-b-lg text-lg lg:mb-10">2. The American Revolution, 1763 - 1783</h5>
             </div>
             <div>
                 <img class="max-w-full rounded-t-lg" src="../assets/img/history-3.jpg" alt="">
-                <h5 class="bg-black text-white p-2 rounded-b-lg text-lg mb-4">3. The New Nation, 1783 - 1815</h5>
+                <h5 class="bg-amber-900 text-white p-2 rounded-b-lg text-lg mb-4">3. The New Nation, 1783 - 1815</h5>
             </div>
             <div>
                 <img class=" max-w-full rounded-t-lg" src="../assets/img/history-4.jpg" alt="">
-                <h5 class="bg-black text-white p-2 rounded-b-lg text-lg mb-4">4. National Expansion and Reform, 1815 - 1880</h5>
+                <h5 class="bg-amber-900 text-white p-2 rounded-b-lg text-lg mb-4">4. National Expansion and Reform, 1815 - 1880</h5>
             </div>
             <div>
                 <img class="lg:-mt-12 max-w-full rounded-t-lg" src="../assets/img/history-5.jpg" alt="">
-                <h5 class="bg-black text-white p-2 rounded-b-lg text-lg mb-4">5. Civil War and Reconstruction, 1861-1877</h5>
+                <h5 class="bg-amber-900 text-white p-2 rounded-b-lg text-lg mb-4">5. Civil War and Reconstruction, 1861-1877</h5>
             </div>
             <div>
                 <img class="lg:-mt-14 max-w-full rounded-t-lg" src="../assets/img/history-6.jpg" alt="">
-                <h5 class="bg-black text-white p-2 rounded-b-lg text-lg mb-4">6. Rise of Industrial America, 1876-1900</h5>
+                <h5 class="bg-amber-900 text-white p-2 rounded-b-lg text-lg mb-4">6. Rise of Industrial America, 1876-1900</h5>
             </div>
             <div>
                 <img class="max-w-full rounded-t-lg" src="../assets/img/history-7.jpg" alt="">
-                <h5 class="bg-black text-white p-2 rounded-b-lg text-lg mb-4">7. Progressive Era to New Era, 1900-1929</h5>
+                <h5 class="bg-amber-900 text-white p-2 rounded-b-lg text-lg mb-4">7. Progressive Era to New Era, 1900-1929</h5>
             </div>
             <div>
                 <img class="lg:-mt-20 max-w-full rounded-t-lg" src="../assets/img/history-8.jpg" alt="">
-                <h5 class="bg-black text-white p-2 rounded-b-lg text-lg mb-4">8. Great Depression and World War II, 1929-1945</h5>
+                <h5 class="bg-amber-900 text-white p-2 rounded-b-lg text-lg mb-4">8. Great Depression and World War II, 1929-1945</h5>
             </div>
             <div>
                 <img class=" lg:-mt-24 max-w-full rounded-t-lg" src="../assets/img/history-9.jpg" alt="">
-                <h5 class="bg-black text-white p-2 rounded-b-lg text-lg mb-4">9.The Post War United States, 1945-1968</h5>
+                <h5 class="bg-amber-900 text-white p-2 rounded-b-lg text-lg mb-4">9.The Post War United States, 1945-1968</h5>
             </div>
         </div>`
     </div>
