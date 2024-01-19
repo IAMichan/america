@@ -17,7 +17,10 @@
                         <label for="body" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
                         <textarea class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-orange-500 focus:border-orange-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-orange-500 dark:focus:border-orange-500" placeholder="Leave a comment..." v-model="body" id="body" rows="6" required></textarea>
                     </div>
-                    <button type="submit" class="py-3 px-5 text-sm font-medium text-center bg-orange-300 hover:bg-orange-400 text-black rounded-lg sm:w-fit focus:ring-4 focus:outline-none focus:ring-orange-300 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800">Send message</button>
+                    <div class="grid grid-cols-3 gap-4">
+                        <button type="submit" class="py-3 px-5 text-sm font-medium text-center bg-orange-300 hover:bg-orange-400 text-black rounded-lg sm:w-fit focus:ring-4 focus:outline-none focus:ring-orange-300 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800">Send message</button>
+                        <span id="message" class="hidden items-center col-span-2 bg-green-100 rounded-md py-2 px-6 text-green-800 text-center font-medium">{{ message }}</span>
+                    </div>
                 </form>
             </div>
         </div>
@@ -31,6 +34,7 @@
                 from: '',
                 subject: '',
                 body: '',
+                message: '',
             };
         },
         methods: {
@@ -53,8 +57,22 @@
                         this.from = '';
                         this.subject = '';
                         this.body = '';
+                        this.message = 'Email sent successfully';
+                        // make the span with id="message" visible
+                        document.getElementById('message').classList.remove('hidden');
+
+                        setTimeout(() => {
+                            this.message = '';
+                            document.getElementById('message').classList.add('hidden');
+                        }, 3000);
                     } else {
                         console.error('Failed to send email');
+                        this.message = 'Failed to send email';
+
+                        setTimeout(() => {
+                            this.message = '';
+                            document.getElementById('message').classList.add('hidden');
+                        }, 3000);
                     }
                 } catch (error) {
                     console.error('Error sending email:', error);
