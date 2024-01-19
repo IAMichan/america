@@ -1,8 +1,9 @@
 import { createApp } from 'vue';
 import { createRouter, createWebHistory } from 'vue-router';
-import App from './App.vue'; // Import the App component
+import App from './App.vue';
 import Home from './views/Home.vue';
 import Me from './views/Me.vue';
+import Contact from './views/Contact.vue';
 import './style.css';
 
 const routes = [
@@ -20,6 +21,12 @@ const routes = [
         name: 'Me',
         component: Me
     },
+    {
+        path: '/contact',
+        name: 'Contact',
+        component: Contact
+    }
+
 ]
 
 const router = createRouter({
